@@ -1,0 +1,37 @@
+ .date-container select{
+    color:green;
+    width: 14vw;
+    height: 10vh;
+    font-size: large;
+    background-color: rgb(120, 214, 120,0.7);
+}
+.date-container {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+  
+  height: 20vh;
+    align-items: center;
+    
+    
+
+}
+.date-container h3 {
+    color: green;
+
+ margin: 20px;;
+    
+ 
+}
+.movie-title-date{
+    color:black;
+    margin: 10px;
+    padding: 10px;
+font-size:40px;
+letter-spacing: 2px;
+
+}
+.shows-container *{
+    color:black;
+}

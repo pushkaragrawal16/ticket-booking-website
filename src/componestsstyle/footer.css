@@ -1,0 +1,23 @@
+.support{
+    
+    background-color: rgb(29, 27, 27);
+    height: 60vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.support ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style-type: none;
+    
+}
+.support ul li {
+    cursor: pointer;
+   
+    color: white;
+    font-size: large;
+}
+.support h5{
+    color:gray;
+}

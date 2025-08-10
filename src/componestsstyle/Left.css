@@ -1,0 +1,12 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.flex-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.font-xxl{
+    font-size: xx-large;
+}

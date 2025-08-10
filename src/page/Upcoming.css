@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.Movies-container{
+    display: flex;
+   margin-left: 20px;
+   padding:20px;
+    gap: 10px;
+}
+.upcoming-movies{
+    box-sizing: border-box;
+   border: 1px solid gray;
+cursor: pointer;
+border-radius:10px;
+width:25vw;
+height:80vh;
+padding:40px;
+margin: 20px;
+
+}
+@keyframes focus-card{
+    0%{
+
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.upcoming-movies:hover{
+   
+    animation: focus-card 0.2s ease-in-out 1 forwards;
+}
+.poster{
+    width:19vw;
+    height: 50vh;
+    
+    border-radius: 10px;
+}
+.navbar-upcoming{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+ letter-spacing:2px;
+   
+}

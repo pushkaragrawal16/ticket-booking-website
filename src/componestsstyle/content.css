@@ -1,0 +1,80 @@
+.right{
+    width: 100vw;
+}
+.upcoming{
+    background:linear-gradient(to right, rgb(24, 228, 6)), rgba(215, 247, 77, 0.9);
+    color: white;
+    border: none;
+    border-radius: 10px;
+  
+font-style: oblique;
+    height: 40px;
+    width: 80px;
+ ;
+  
+   position: relative;
+   left: 80px;
+   cursor: pointer;
+
+transition: all 0.1s ease-in-out;
+
+}
+.upcoming:hover{
+    transform: scale(1.1);
+    
+}
+.bookupcoming{
+    font-size: large;
+    font-style: italic;
+margin: 10px;
+word-spacing: 10px;
+letter-spacing: 2px;
+
+    font-weight: bold;
+}
+.trending{
+   box-shadow: 1px 1px 10px rgb(26, 1, 1);
+   background-color: azure;
+   display: flex;
+   color:black;
+}
+.trending *{
+    color:black;
+}
+.trending img{
+    width:30vw;
+    height: 90vh;
+    border-radius: 6px;
+    box-shadow: 1px 0 1px gray;
+    margin: 10px;
+   
+
+
+
+ 
+}
+.support{
+    
+    background-color: rgb(29, 27, 27);
+    height: 60vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.support ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style-type: none;
+    
+}
+.support ul li {
+    cursor: pointer;
+   
+    color: white;
+    font-size: large;
+}
+.Saiyaara-book{
+    background: linear-gradient(to right,green,rgb(57, 230, 57));
+    border: none;
+    box-shadow:2px 2px rgb(14, 2, 2);
+}

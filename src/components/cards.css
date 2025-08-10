@@ -1,0 +1,55 @@
+.card img{
+    
+ 
+    border: 2px solid black;
+    border-radius: 10px;
+  
+object-fit:cover;
+
+  
+}
+.card:hover{
+   transform: scale(1.1);
+   
+}
+
+.card-flex{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.card{
+    box-sizing: border-box;
+    border: 0.1px solid rgb(68, 59, 59);
+    padding: 5px;
+    border-radius: 10px;
+    color: #f0f8ff;
+    width:18vw;
+ 
+    text-align:start;
+    margin: 20px;
+  
+
+}
+
+
+.card:hover{
+   background:linear-gradient(to right,rgba(0, 0, 0, 0.574),transparent);
+    cursor: pointer;
+   overflow: hidden;
+   transition: all 0.2s ease-in-out;
+   
+}
+.description{
+    color: rgb(247, 237, 237);
+    font-weight: bold;
+}
+h5{
+    color:gray
+}
+.Title{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height:10vh
+}

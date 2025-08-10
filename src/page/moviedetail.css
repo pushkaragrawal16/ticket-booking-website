@@ -1,0 +1,46 @@
+
+.movie-page{
+    margin: 10px;
+    border-radius: 10px;
+
+    background-size: cover;    
+    
+}
+.image{
+    border-radius: 10px;
+    margin-top: 10vh;
+    margin-left: 10px;
+}
+.book-tickets{padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(to left, rgb(162, 216, 167),rgb(41, 168, 2));
+    transition: all 0.1s ease-in-out;
+}
+.book-tickets:hover{
+ cursor: pointer;
+ transform: scale(1.1);
+ background-color: rgb(74, 255, 18);
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.title{
+    padding-top:100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:white;
+  margin: 20px;
+}
+.rating{
+    color: gray;
+
+   
+}
+.imdb{
+    color: gray;
+    
+}
+.Flim-desc *{
+    color:black;
+}

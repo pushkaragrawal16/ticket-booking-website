@@ -1,0 +1,94 @@
+.seat-wrapper {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(54, 6, 6, 0.914);
+}
+
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 40px);
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seat.selected {
+  background-color: #5cfa62;
+  color: white;
+}
+
+.seat.booked {
+  background-color: #f44336;
+  cursor: not-allowed;
+  color: white;
+}
+.Book{
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(to left, rgb(162, 216, 167),rgb(41, 168, 2));
+    transition: all 0.1s ease-in-out;
+}
+.Book:hover{
+ cursor: pointer;
+ transform: scale(1.1);
+ background-color: rgb(74, 255, 18);
+}
+.reckliner{
+
+background-color: darkmagenta;
+
+
+}
+.royale{
+background-color: rgb(10, 122, 29);
+
+
+}
+.club{
+  background-color: darkorange;
+ 
+ 
+}
+.executive{
+  background-color: darkcyan;
+ 
+}
+.Club{
+grid-column: 1/13;
+}
+.Royal {
+   grid-column: 1/13;
+}
+.Executive{
+  grid-column: 1/13;
+}
+.Reckliner{
+  grid-column: 1/13;
+}
+.Signin{
+   color: white;
+   background: linear-gradient(to right, red,black);
+            height: 30px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.1s ease-in-out;
+
+}
+.Signin:hover{
+    transform: scale(1.1);
+  
+  
+}

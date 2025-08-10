@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.Movies-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+.movies{
+    box-sizing: border-box;
+   border: 1px solid gray;
+cursor: pointer;
+border-radius:10px;
+width:70vw;
+height:70vh;
+padding:10px;
+
+
+}
+@keyframes focus-card{
+    0%{
+
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+.movies:hover{
+   
+    animation: focus-card 0.2s ease-in-out 1 forwards;
+    background-color: rgba(240, 248, 255, 0.108);
+}
+.poster{
+    width:20vw;
+    height: 50vh;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.popular{
+   
+transform: translate(5vw,5vh);
+    font-size: 30px;
+    font-weight: 500;
+   
+}
+.popular-container{
+    height:90vh;
+    overflow:scroll;
+    scrollbar-width: none;
+margin-left: 4vw;
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+   
+    padding: 40px;
+    
+}
