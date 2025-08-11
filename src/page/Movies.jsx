@@ -13,10 +13,13 @@ const Movies = () => {const [data, setdata] = useState([]);
 
    useEffect(() => {
     const fetchmovies=async()=>{
+         const response1 = await fetch(apiUrl);
         const response= await fetch(apiUrl2);
         console.log(`response is ${response}`);
        const x=await response.json();
+       const y=await response1.json();
        console.log(`x is ${x}`);
+       setdata(y.results);
        setdata2(x.results);
          console.log("fetched data is ",data2);
     }
