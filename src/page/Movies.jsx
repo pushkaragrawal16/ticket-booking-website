@@ -10,19 +10,7 @@ const apiUrl="https://api.themoviedb.org/3/movie/popular?api_key=4d767c7e2ec03f1
 const apiUrl2="https://api.themoviedb.org/3/movie/top_rated?api_key=4d767c7e2ec03f18789ce1aa485d301a";
 const Movies = () => {const [data, setdata] = useState([]);
    const [data2, setdata2] = useState([]) 
-   useEffect(() => {
-    const fetchmovies=async()=>{
-        const response= await fetch(apiUrl);
-        console.log(`response is ${response}`);
-       const x=await response.json();
-       console.log(`x is ${x}`);
-       setdata(x.results);
-         console.log("fetched data is ",data);
-    }
-    fetchmovies();
-     
-    
-   }, []);
+
    useEffect(() => {
     const fetchmovies=async()=>{
         const response= await fetch(apiUrl2);

@@ -26,7 +26,7 @@ const SeatMatrix = () => {
       
     };
     fetchBookedSeats();
-  }, []);
+  }, [id]);
 
   
   useEffect(() => {
@@ -94,7 +94,7 @@ const SeatMatrix = () => {
     for (let i = 0; i < 12 * 15; i++) {
       const isBooked = bookedSeats.includes(i);
       const isSelected = selectedSeats.includes(i);
-      if(i==0){
+      if(i===0){
         seats.push(
           <div key={'reckliner'} className='Reckliner'>Reckliner</div>
         )
@@ -111,7 +111,7 @@ seats.push(
       );
       }
 
-   if(i==12){seats.push(
+   if(i===12){seats.push(
 <div className='Royal' key={'royal'}>Royale</div>
   )
  }
@@ -126,7 +126,7 @@ seats.push(
         </div>
       );
       }
-      if(i==48){
+      if(i===48){
         seats.push(
           <div key={'club'} className='Club'>Club</div>
         )
@@ -142,7 +142,7 @@ seats.push(
         </div>
       );
       }
-       if(i==96){
+       if(i===96){
         seats.push(
           <div key={'executive'} className='Executive'>Executive</div>
         )
