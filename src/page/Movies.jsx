@@ -26,7 +26,7 @@ const Movies = () => {const [data, setdata] = useState([]);
     fetchmovies();
      
     
-   }, []);
+   }, [data,data2]);
    useEffect(() => {
      console.log("current data status :",data)
    
