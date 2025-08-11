@@ -4,7 +4,7 @@ import Cards from './Cards'
 import Left from './Left'
 import Right from './Right'
 import Footer from './Footer'
-import handleBooking from './handlebooking'
+
 const Content = () => {
   return (
   <div style={{backgroundImage:'url("image.png")',backgroundSize:'cover',height:'auto',width:'100vw',backgroundAttachment:"fixed"}}> 
