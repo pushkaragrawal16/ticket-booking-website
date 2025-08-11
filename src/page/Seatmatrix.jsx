@@ -5,8 +5,7 @@ import {useParams} from "react-router-dom";
 
 const SeatMatrix = () => {
 
-  const rows = 12;
-  const cols = 150;
+
   
   const {id} = useParams();  // Access the dynamic route param
  

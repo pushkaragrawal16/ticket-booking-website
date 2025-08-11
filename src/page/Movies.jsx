@@ -5,7 +5,7 @@ import './Movies.css'
 
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
-const apiKey="4d767c7e2ec03f18789ce1aa485d301a";
+
 const apiUrl="https://api.themoviedb.org/3/movie/popular?api_key=4d767c7e2ec03f18789ce1aa485d301a";
 const apiUrl2="https://api.themoviedb.org/3/movie/top_rated?api_key=4d767c7e2ec03f18789ce1aa485d301a";
 const Movies = () => {const [data, setdata] = useState([]);
