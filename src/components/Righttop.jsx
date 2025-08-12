@@ -26,7 +26,7 @@ const Righttop = () => {
     <div
      
       style={{
-        width: "80vw",
+        width: "70vw",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -41,9 +41,9 @@ const Righttop = () => {
       <img
         src={sources[getIndex(-1)]}
         alt="Left Poster"
-
+        width={150}
         height={400}
-        style={{ objectFit: "cover", borderRadius: "20px", filter: "brightness(0.4)",maxWidth:"70vw" }}
+        style={{ objectFit: "cover", borderRadius: "20px", filter: "brightness(0.4)" }}
       />
 
       {/* Left Button */}
@@ -77,13 +77,13 @@ const Righttop = () => {
         <img
           src={sources[getIndex(0)]}
           alt="Main Poster"
-         
+          width={800}
           height={500}
          
           style={{
             objectFit: "cover",
             borderRadius: "30px",
-            maxWidth: "70vw",
+            
           }}
         />
       </div>
@@ -111,9 +111,9 @@ const Righttop = () => {
       <img
         src={sources[getIndex(1)]}
         alt="Right Poster"
-       
+        width={150}
         height={400}
-        style={{ objectFit: "cover", borderRadius: "20px", filter: "brightness(0.4)",maxWidth:"70vw" }}
+        style={{ objectFit: "cover", borderRadius: "20px", filter: "brightness(0.4)" }}
       />
     </div>
   );

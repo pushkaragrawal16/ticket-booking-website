@@ -8,7 +8,7 @@ import Footer from './Footer'
 const Content = () => {
   return (
   <div style={{backgroundImage:'url("image.png")',backgroundSize:'cover',height:'auto',width:'100vw',backgroundAttachment:"fixed"}}> 
-    <div className='contentlr'>
+    <div style={{display:"flex"}}>
       <div style={{width: "20vw",margin:"20px"}}><Left/></div>
       
     <div style={{width:"80vw",padding:"20px",margin:"50px"}}>
