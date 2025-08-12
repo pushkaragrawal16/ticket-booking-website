@@ -37,10 +37,11 @@ const Navbar = () => {
 
   return (
     <div className='navbar-bg border-radius m-x m-y flex justify-around navbar'>
-      {!signIn && (
+      {!signIn && (<div className='signIn-div'>
         <button className='signIn' onClick={handleSignIn}>
           Sign in
         </button>
+        </div>
       )}
       {signIn && (
         <div>

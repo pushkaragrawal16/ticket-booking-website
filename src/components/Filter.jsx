@@ -33,6 +33,7 @@ const Filter = () => {
       }
   return (
     <div className='flex-gap ' id={'Filter'}>
+      <div>
 <div className='flex-head'><h3>Language </h3><span className="material-symbols-outlined " style={{cursor:"pointer",transform:flipped?"scaleY(-1)":"scaleY(1)"}} onClick={handleclick}>
 arrow_drop_up
 </span></div>
@@ -43,6 +44,10 @@ arrow_drop_up
         ))
       }
     </div>
+    </div>
+
+<div>
+
 <div className='m flex-head'><h3>Genres </h3><span className="material-symbols-outlined " style={{cursor:"pointer",transform:genflipped?"scaleY(-1)":"scaleY(1)"}} onClick={handleclickgen}>
 arrow_drop_up
 </span></div>
@@ -52,17 +57,22 @@ arrow_drop_up
 <button key={index}>{genre}</button>
         ))
       }
-    </div><div className='m flex-head'><h3>Formats</h3><span className="material-symbols-outlined " style={{cursor:"pointer",transform:formatflipped?"scaleY(-1)":"scaleY(1)"}} onClick={handleclickformat}>
+    </div>
+
+
+    </div>
+    <div>
+    <div className='m flex-head'><h3>Formats</h3><span className="material-symbols-outlined " style={{cursor:"pointer",transform:formatflipped?"scaleY(-1)":"scaleY(1)"}} onClick={handleclickformat}>
 arrow_drop_up
 </span></div>
-<div className={` ${formatflipped ? "show" : "hide"}`} style={{marginLeft:"10px"}}>
+<div className={`flex-lang ${formatflipped ? "show" : "hide"}`} style={{marginLeft:"10px"}}>
       {
         formats.map((format,index)=>(
 <button key={index}>{format}</button>
         ))
       }
     </div>
-
+</div>
     </div>
   )
 }

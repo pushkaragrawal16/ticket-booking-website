@@ -14,8 +14,12 @@
 }
 .flex-gap{
     display: flex;
-    flex-direction: column ;
+     
     gap: 20px;
+    justify-items:space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
 div div h3{
@@ -39,4 +43,17 @@ div div span{
     button:hover{
         transform: scale(1.15);
         cursor: pointer;
+}
+@media screen and (max-width:600px) {
+
+.flex-gap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.flex-lang{
+    min-width: 80vw;
+}
 }

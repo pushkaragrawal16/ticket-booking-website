@@ -8,7 +8,7 @@ const Left = () => {
 
   
   return (
-      <div style={{borderRadius:"20px",minWidth:"300px"}}>
+      <div style={{borderRadius:"20px",minWidth:"30vw"}}>
         <div className='flex-filter'><span className='font-xxl' >Filter </span>
     <span className="material-symbols-outlined">
 arrow_drop_up
@@ -16,9 +16,7 @@ arrow_drop_up
 
 </div>
     <Filter/>
-    <div>
-   <h1>connect us</h1>
-    </div>
+    
     </div>
   )
 }

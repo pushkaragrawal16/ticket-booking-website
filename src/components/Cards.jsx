@@ -13,6 +13,8 @@ const Cards = () => {
           flexWrap: 'wrap',
           display: 'flex',
           gap: '20px',
+          justifyContent:'space-around',
+
           padding: '20px',
         }}
       >
@@ -25,8 +27,8 @@ const Cards = () => {
                 style={{ width: '100%', borderRadius: '10px' }}
               />
               <h3 className="Title">{movie.title}</h3>
-              <h5>{movie.rating}</h5>
-              <h5>{movie.languages.join(', ')}</h5>
+              <h5 className='rating'>{movie.rating}</h5>
+              <h5 className='lang'>{movie.languages.join(', ')}</h5>
             </div>
           </Link>
         ))}

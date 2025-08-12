@@ -78,3 +78,12 @@ letter-spacing: 2px;
     border: none;
     box-shadow:2px 2px rgb(14, 2, 2);
 }
+@media screen and (max-width:600px) {
+    .contenlr{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    
+}
+
